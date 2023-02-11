@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./register.component.scss']
 })
 export class RegisterComponent {
+  email: string = "";
+  password: string = "";
+  confirmPassword: string = "";
 
+  constructor() { }
+
+  register() {
+    console.log(this.email)
+    console.log(this.password)
+  }
 }
